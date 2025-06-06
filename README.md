@@ -7,3 +7,6 @@ Creates a table and inserts US states and territories into it. I couldn't find a
 
 ##  BCPExportCSV.sql
 Takes a table target and uses SQL Server BCP to export it to CSV directory.
+
+##  Latches.sql
+Shows all the latches that are waiting. Set the percentage threshold at the bottom based on preferences. 95% I feel is a pretty good number, though.
