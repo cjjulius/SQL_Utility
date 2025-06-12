@@ -13,3 +13,6 @@ Creates a table and inserts US states and territories into it. I couldn't find a
 
 ## AllDatabases_and_Size.sql
 Has a few different ways to display all databases on a SQL Server and their size. Will also report the resourcedb information as well.
+
+## All_tables_without_indexes.sql
+All the tables in a database that don't have an index.
