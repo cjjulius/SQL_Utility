@@ -11,6 +11,9 @@ All the tables in a database that don't have an index.
 ##  BCPExportCSV.sql
 Takes a table target and uses SQL Server BCP to export it to CSV directory.
 
+## Create_Deadlock.sql
+Creates a Deadlock in SQL Server Using defult Read Committed Isolation mode. For testing alterting or just for fun. ¯\_(ツ)_/¯
+
 ##  Latches.sql
 Shows all the latches that are waiting. Set the percentage threshold at the bottom based on preferences. 95% I feel is a pretty good number, though.
 
