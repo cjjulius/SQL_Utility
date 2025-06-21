@@ -20,5 +20,5 @@ Shows all the latches that are waiting. Set the percentage threshold at the bott
 ## States_Territories_US.sql
 Creates a table and inserts US states and territories into it. I couldn't find anything that did exactly this with what I needed, so here it is.
 
-# Find_TempTables.sql
+## Find_TempTables.sql
 Shows all temp tables in SQL Server along with information about them.
