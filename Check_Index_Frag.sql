@@ -40,7 +40,7 @@ SELECT [database_id]
         ,[avg_fragment_size_in_pages]
         ,[page_count]
         ,ind.name
- FROM sys.dm_db_index_physical_stats(DB_ID(N'SomeDB'), OBJECT_ID(N'dbo.SomeTable'), NULL, NULL , 'LIMITED')
+ FROM sys.dm_db_index_physical_stats(DB_ID(N'SomeDB'), OBJECT_ID(N'dbo.fSomeTable'), NULL, NULL , 'LIMITED')
 	INNER JOIN sys.indexes ind ON ind.object_id = dm_db_index_physical_stats.object_id
                                 AND ind.index_id = dm_db_index_physical_stats.index_id;
 --WHERE   [avg_fragmentation_in_percent] > 10.0
