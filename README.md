@@ -1,14 +1,14 @@
 # SQL_Utility
 Scripts and Related Items for Utility Purposes. SQL Server 2016+
 All of this is of course "At your own risk". Don't run code you haven't vetted. Even if it's from me.
-
 <br />
+
 ## Server
 
 ### Latches.sql
 Shows all the latches that are waiting. Set the percentage threshold at the bottom based on preferences. 95% I feel is a pretty good number, though.
- 
-<br />
+ <br />
+
 ## Database
 
 ### AllDatabases_and_Size.sql
@@ -16,8 +16,8 @@ Has a few different ways to display all databases on a SQL Server and their size
 
 ### Database_Stats.sql
 Some basic database file stats. Sizes and location
- 
 <br />
+
 ## Table/Index
 
 ### All_tables_without_indexes.sql
@@ -34,8 +34,8 @@ Shows all temp tables in SQL Server along with information about them.
 
 ### Tables_Heaps.sql
 Shows all tables that are heaps in the current database.
+ <br />
  
-<br />
 ## Misc
 
 ### Create_Deadlock.sql
