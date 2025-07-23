@@ -16,6 +16,9 @@ Has a few different ways to display all databases on a SQL Server and their size
 
 ### Database_Stats.sql
 Some basic database file stats. Sizes and location
+
+### Restore_Progress.sql
+Database Restore progress as completion percentage and estimates time to complete.
 <br />
 
 ## Table/Index
