@@ -45,6 +45,9 @@ Shows all tables that are heaps in the current database.
  
 ## Misc
 
+### CDC_Query.sql
+Various methods to query CDC. Join with changes on a table, or see within a timerange.
+
 ### Create_Deadlock.sql
 Creates a Deadlock in SQL Server Using defult Read Committed Isolation mode. For testing alterting or just for fun. ¯\_(ツ)_/¯
 
