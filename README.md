@@ -23,6 +23,9 @@ Show all the extended properties in the database.
 ### Restore_Progress.sql
 Database Restore progress as completion percentage and estimates time to complete.
 
+### Backup_History.sql
+Displays all the databases that haven't been backed up in a given amount out time.
+
 <br />
 
 ## Table/Index
