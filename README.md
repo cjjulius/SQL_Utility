@@ -7,12 +7,18 @@ All of this is of course "At your own risk". Don't run code you haven't vetted. 
 
 ### Latches.sql
 Shows all the latches that are waiting. Set the percentage threshold at the bottom based on preferences. 95% I feel is a pretty good number, though.
- <br />
+
+### Change_Job_Owners.sql
+Shows you all the jobs on a server not owned by an account and then lets you change them all to that owner. 'sa' is the default, but you can set it to anyone.
+<br />
 
 ## Database
 
 ### AllDatabases_and_Size.sql
 Has a few different ways to display all databases on a SQL Server and their size. Will also report the resourcedb information as well.
+
+### Backup_History.sql
+Displays all the databases that haven't been backed up in a given amount out time.
 
 ### Database_Stats.sql
 Some basic database file stats. Sizes and location
@@ -22,10 +28,6 @@ Show all the extended properties in the database.
 
 ### Restore_Progress.sql
 Database Restore progress as completion percentage and estimates time to complete.
-
-### Backup_History.sql
-Displays all the databases that haven't been backed up in a given amount out time.
-
 <br />
 
 ## Table/Index
