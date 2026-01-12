@@ -8,6 +8,9 @@ All of this is of course "At your own risk". Don't run code you haven't vetted. 
 ### Encrypt_DB.sql
 The basic process of encrypting a database and verifying that it is encrypted properly in SQL Server.
 
+### Execution_Plans.sql
+Gets execultion plans in a variety of ways to troubleshoot a misbehaving procedure. Best whe used in tandem with query store.
+
 ### Latches.sql
 Shows all the latches that are waiting. Set the percentage threshold at the bottom based on preferences. 95% I feel is a pretty good number, though.
 
