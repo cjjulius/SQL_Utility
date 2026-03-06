@@ -1,5 +1,5 @@
 /*==============================================================================
-  Script Name:   identify_missing_indexes.sql
+  Script Name:   missing_indexes.sql
   Description:   Reports missing indexes as suggested by the SQL Server query
                  optimizer, ranked by the estimated improvement impact.
                  Covers all user databases on the instance.  The impact score
