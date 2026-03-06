@@ -41,6 +41,9 @@ Database Restore progress as completion percentage and estimates time to complet
 ### All_tables_without_indexes.sql
 All the tables in a database that don't have an index.
 
+### missing_indexes.sql
+Returns the top 25 most expensive queries from the plan cache by CPU, logical reads, and elapsed time. Pair with wait_stats_analysis.sql to understand why a query is expensive.
+
 ### BCPExportCSV.sql
 Takes a table target and uses SQL Server BCP to export it to CSV directory.
 
